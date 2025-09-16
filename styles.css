@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.header {
+  background: rgb(112, 198, 221);
+  padding: 20px;
+   min-height: 200px;
+  text-align: center;
+}
+
+.main {
+  background: #a26363;
+  padding: 40px;
+  min-height: 200px;
+}
+
+.footer {
+  background: linear-gradient(to right, #455357, #8d6ded);
+  padding: 40px;
+   min-height: 150px;
+  text-align: center;
+}
+
+.text {
+  font-size: 18px;
+}
