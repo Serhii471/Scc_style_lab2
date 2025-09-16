@@ -6,31 +6,42 @@
 
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.5;
-
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   background: linear-gradient(to right, #eca307, #8d6ded);
-  padding: 20px;
-   min-height: 200px;
+  height: 30vh;
 
+  display: flex;
+  align-items: center;       
+  justify-content: flex-start; 
+  padding-left: 20px;
 }
 
 .main {
-   background: linear-gradient(to right, #fc25b1, #8d6ded);
-  padding: 40px;
-  min-height: 200px;
-align-items: center;
+  background: linear-gradient(to right, #fc25b1, #8d6ded);
+  height: 40vh;
+
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
 }
 
 .footer {
   background: linear-gradient(to right, #ef09b5, #8d6ded);
-  padding: 40px;
-   min-height: 150px;
+  height: 30vh;
 
+  display: flex;
+  align-items: center;     
+  justify-content: flex-end; 
+  padding-right: 20px;
 }
 
 .text {
   font-size: 18px;
+  color: white; 
+  font-weight: bold;
 }
