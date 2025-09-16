@@ -7,26 +7,28 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
+
 }
 
 .header {
-  background: rgb(112, 198, 221);
+  background: linear-gradient(to right, #eca307, #8d6ded);
   padding: 20px;
    min-height: 200px;
-  text-align: center;
+
 }
 
 .main {
-  background: #a26363;
+   background: linear-gradient(to right, #fc25b1, #8d6ded);
   padding: 40px;
   min-height: 200px;
+align-items: center;
 }
 
 .footer {
-  background: linear-gradient(to right, #455357, #8d6ded);
+  background: linear-gradient(to right, #ef09b5, #8d6ded);
   padding: 40px;
    min-height: 150px;
-  text-align: center;
+
 }
 
 .text {
